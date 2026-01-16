@@ -10,6 +10,12 @@ const B= document.getElementById("B")
 const sumar= document.getElementById("sumar")
 const resultado=document.getElementById("resultado")
 
+let text="asdasdasd"
+let numerico=2342342
+const arreglo=["hola", 1, false];
+const objeto={}
+const booleanos=true;
+
 
 
 // eventos
@@ -29,5 +35,5 @@ suma_link.addEventListener("click", function(){
 })
 
 sumar.addEventListener("click", ()=>{
-    resultado.textContent=parseInt(A.value)+parseInt(B.value)
+    resultado.textContent=arreglo[0]
 })
