@@ -12,11 +12,12 @@ const resultado=document.getElementById("resultado")
 
 let text="asdasdasd"
 let numerico=2342342
-const arreglo=["hola", 1, false];
+const arreglo=["hola", 1, false, text];
 const objeto={}
 const booleanos=true;
 
-
+let indice=0;
+const frutas=["manzana", "naranja", "pera", "fresa"]
 
 // eventos
 
@@ -35,5 +36,8 @@ suma_link.addEventListener("click", function(){
 })
 
 sumar.addEventListener("click", ()=>{
-    resultado.textContent=arreglo[0]
+    resultado.textContent=frutas[indice]
+    indice=indice+1;
+
+
 })
